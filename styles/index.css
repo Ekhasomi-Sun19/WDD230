@@ -3,11 +3,11 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
-    margin: 5%;
-
+    margin: 5% auto;
+    max-width: 700px;
 }
 
-.header-1{
+header{
     background-color: rgb(17, 132, 226);
     border-radius: 10px;
     display: grid;
@@ -17,31 +17,28 @@ body{
     box-shadow: 2px 1px 30px rgba(10, 10, 0.9, 0.9);
 }
 
-.header-1 .image img{
-    width: 48%;
-    height: 68%; 
+header .image img{
+    width: 65%;
+    height: 84.5%; 
     padding-left: 10%;
     padding-top: 3%;
     padding-bottom: 5%;
 }
 
-.header-1 .name h3{
-    font-size: 40px;
-    padding-left: 5%;
-    padding-top: 4%;
+header .name h3{
+    font-size: 35px;
+    padding-left: 8%;
+    padding-top: 15%;
     font-weight: 700;
     color: white;
-    text-shadow: 2px 1px 20px rgba(10, 10, 0.9, 50);
-
-    
+    text-shadow: 2px 1px 20px rgba(10, 10, 0.9, 50); 
 }
 
-.header-2 p{
+main .header-2 p{
     font-size: 30px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 2px 1px 8px rgba(10, 10, 0.9, 0.9);
-
 }
 
 .Lesson li{
@@ -50,6 +47,10 @@ body{
 
 .bottom p{
     font-style: italic;
+    margin-bottom: 9%;
+    margin-top: -1%;
+    width: 100%;
+    font-size: 22px;
 }
 
 footer{
@@ -61,7 +62,6 @@ footer{
     text-align: center;
     align-items: center;
     box-shadow: 2px 1px 30px rgba(10, 10, 0.9, 0.9);
-
 }
 
 footer .footer-1 p{
@@ -160,9 +160,7 @@ footer .footer-2 p{
         padding-top: 6%;
         font-weight: 700;
         color: white;
-        text-shadow: 2px 1px 20px rgba(10, 10, 0.9, 50);
-    
-        
+        text-shadow: 2px 1px 20px rgba(10, 10, 0.9, 50);   
     }
 
   }
